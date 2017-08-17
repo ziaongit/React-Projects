@@ -1,0 +1,4 @@
+**/pomodoro/.vscode
+**/pomodoro/node_modules/
+**/pomodoro/bower_components/
+**/pomodoro/build/.DS_Store
