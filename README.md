@@ -1,4 +1,5 @@
 # React Projects Repository
 
-1. Pomodoro Timer
-[Pomodoro Timer Repo] (https://github.com/ziaongit/React-Projects/tree/master/pomodoro)
+1. [Pomodoro Timer Repo] (https://github.com/ziaongit/React-Projects/tree/master/pomodoro)
+
+2. [Product Search] (https://github.com/ziaongit/React-Projects/tree/master/product-search)
