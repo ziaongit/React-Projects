@@ -2,6 +2,7 @@
 **/pomodoro/node_modules/
 **/pomodoro/bower_components/
 **/pomodoro/build/.DS_Store
+package-lock.json
 
 **/product-search/.vscode
 **/product-search/node_modules/
