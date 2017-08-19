@@ -4,5 +4,5 @@
 
 2. [Product Search] (https://github.com/ziaongit/React-Projects/tree/master/product-search)
 
-3. [News Search] (https://github.com/ziaongit/React-Projects/tree/master/product-search)
+3. [News Search] (https://github.com/ziaongit/React-Projects/tree/master/news-search)
 
