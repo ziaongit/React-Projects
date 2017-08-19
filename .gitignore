@@ -7,3 +7,8 @@
 **/product-search/node_modules/
 **/product-search/bower_components/
 **/product-search/build/.DS_Store
+
+**/news-search/.vscode
+**/news-search/node_modules/
+**/news-search/bower_components/
+**/news-search/build/.DS_Store
