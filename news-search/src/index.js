@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import Header from './components/header';
 import NewsList from './components/news_list';
-
 import JSON from './db.json';
 
 class App extends React.Component{
@@ -12,14 +10,24 @@ class App extends React.Component{
         super(props);
 
         this.state = {
-            news:JSON
+            news:JSON,
+            filtered:JSON
         }
     }
+
+    filterNews(keywords){
+        let filtered = this.state.news.filter((item)=>{
+            return item.title.toLowerCase().indexOf(keywords) > -1;
+        })
+
+        this.setState({filtered})
+    }
+
     render() {
         return(
             <div>
-                <Header />
-                <NewsList news={this.state.news}/>
+                <Header newsSearch={keywords=>this.filterNews(keywords)}/>
+                <NewsList news={this.state.filtered}/>
             </div>
         )
 

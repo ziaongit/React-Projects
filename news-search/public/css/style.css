@@ -29,3 +29,8 @@ header input:focus {
     color: #b8b8b8;
     font-family: 'Roboto';
 }
+.news_item {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+}
