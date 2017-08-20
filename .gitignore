@@ -9,7 +9,8 @@ package-lock.json
 **/product-search/bower_components/
 **/product-search/build/.DS_Store
 
-**/news-search/.vscode
 **/news-search/node_modules/
 **/news-search/bower_components/
-**/news-search/build/.DS_Store
+
+**/react-router/node_modules/
+**/react-router/bower_components/
