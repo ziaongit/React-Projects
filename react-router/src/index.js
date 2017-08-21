@@ -33,9 +33,9 @@ ReactDOM.render(
         <div>
             <Menu />
             <Route exact path="/" component={App}></Route>
-            <Route path="/about" component={About}></Route>
-            <Route path="/profile" component={Profile}></Route>
-            <Route path="/contact" component={Contact}></Route>
+            <Route exact path="/about" component={About}></Route>
+            <Route exact path="/profile" component={Profile}></Route>
+            <Route exact path="/contact" component={Contact}></Route>
             <Route path="*" component={NotFount}></Route>
             <Footer />
         </div>
