@@ -11,3 +11,5 @@
 5. [Music DB] (https://github.com/ziaongit/React-Projects/tree/master/music-db)
 
 6. [NBA Website] (https://github.com/ziaongit/React-Projects/tree/master/nba-website)
+
+7. [Tic Tac Toe] (https://github.com/ziaongit/React-Projects/tree/master/tic-tac-toe)
