@@ -16,6 +16,17 @@ class  App extends Component {
         }
     }
 
+    aiMove() {
+        this.gameState.gameLocked = true;
+        setTimeout(()=> {
+          do {
+            var random = Math.floor(Math.random()*9);
+          } while(this.gameState.board[random] != '');
+          this.gameState.gameLocked = false;
+          this.clicked(document.querySelectorAll('.square')[random]);
+        }, 500);
+    }
+
     clicked(box) {
         if(this.gameState.gameEnded || this.gameState.gameLocked) return;
         if(this.gameState.board[box.dataset.square]===''){
@@ -47,14 +58,7 @@ class  App extends Component {
         }
 
         if(this.gameState.turn == 'O' && !this.gameState.gameEnded) {
-            this.gameState.gameLocked = true;
-            setTimeout(()=> {
-              do {
-                var random = Math.floor(Math.random()*9);
-              } while(this.gameState.board[random] != '');
-              this.gameState.gameLocked = false;
-              this.clicked(document.querySelectorAll('.square')[random]);
-            }, 500);
+            this.aiMove();
         }
     }
     
