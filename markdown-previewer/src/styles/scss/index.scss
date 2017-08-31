@@ -1,5 +1,25 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
 }
+.heading {
+	text-align: center;
+	color: #333;
+	padding: 10px;
+	margin-bottom: 30px;
+	font-family: 'Baloo Chettan', cursive;
+	font-weight: bold;
+	box-shadow: 4px 6px 5px;
+	text-shadow: 2px 2px #ffe6e6;
+}
+#formControlsTextarea {
+    height: 400px;
+    outline: none;
+}
+*:focus {
+    outline: none;
+}
+
+
+

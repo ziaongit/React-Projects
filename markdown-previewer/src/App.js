@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import FormGroup from 'react-bootstrap/lib/FormGroup'
-import ControlLabel from 'react-bootstrap/lib/ControlLabel'
 import FormControl from 'react-bootstrap/lib/FormControl'
 
 var marked = require('marked');
@@ -20,21 +19,21 @@ class App extends Component {
   render() {
     let { markdown } = this.state;
     return (
-      <div className="container-fluid">
-        <h1>Markdown Previewer</h1>
+      <div className="App container-fluid">
+        <h1 className="heading">Markdown Previewer</h1>
         <div className="col-md-6">
           <FormGroup controlId="formControlsTextarea">
-            <ControlLabel> Enter Markdown</ControlLabel>
             <FormControl
                 componentClass="textarea"
                 placeholder="Enter Markdown"
-                 defaultValue={this.state.value}
+                className="markdownEntry"
+                defaultValue={this.state.value}
                 onChange={this.handleChange}>
           </FormControl>
           </FormGroup>
         </div>
         <div className="col-md-6">
-          <div dangerouslySetInnerHTML={{__html: marked(markdown)}}></div>
+          <div className="markdownOutput" dangerouslySetInnerHTML={{__html: marked(markdown)}}></div>
         </div>
       </div>
     );
