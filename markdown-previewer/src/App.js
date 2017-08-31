@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import FormGroup from 'react-bootstrap/lib/FormGroup'
 import ControlLabel from 'react-bootstrap/lib/ControlLabel'
 import FormControl from 'react-bootstrap/lib/FormControl'
@@ -21,7 +20,7 @@ class App extends Component {
   render() {
     let { markdown } = this.state;
     return (
-      <div className="App container-fluid">
+      <div className="container-fluid">
         <h1>Markdown Previewer</h1>
         <div className="col-md-6">
           <FormGroup controlId="formControlsTextarea">
