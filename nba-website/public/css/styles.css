@@ -197,3 +197,31 @@ Blocks Start
 /*
 Blocks End
 -----------------------------------------*/
+
+/*
+Poll Start
+-----------------------------------------*/
+.home-poll {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.poll-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+.poll-container .poll-item {
+    padding: 20px;
+    flex-grow: 1;
+}
+.poll-container .poll-item img {
+    width: 80%;
+}
+.poll-container .poll-item div {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+}
+/*
+Poll End
+-----------------------------------------*/
