@@ -225,3 +225,87 @@ Poll Start
 /*
 Poll End
 -----------------------------------------*/
+
+/*
+Team Fade Start
+-----------------------------------------*/
+.fade-appear {
+    opacity: 0.01;
+  }
+  
+  .fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+  }
+  
+  
+  .fade-enter {
+    opacity: 0.01;
+  }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .fade-leave {
+    opacity: 1;
+  }
+  
+  .fade-leave.fade-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
+
+/*
+Team Fade End
+-----------------------------------------*/
+
+/*
+Teams Start
+-----------------------------------------*/
+.teams-component {
+    min-height: 800px;
+}
+
+.teams-input {
+    text-align: center;
+    padding: 20px 0px;
+    background: #e6e6e6;
+}
+
+.teams-input input {
+    font-family: Roboto;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.teams-input  input:focus{
+    outline: none;
+}
+
+
+.teams-container span {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.teams-container .team_item{
+    width:25%;
+    padding:30px;
+    box-sizing: border-box;
+}
+.teams-container .team_item img {
+    width:100%;
+
+}
+
+
+/*
+Teams End
+-----------------------------------------*/
