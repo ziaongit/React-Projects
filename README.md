@@ -6,8 +6,8 @@
     [Demo] (https://ziaongit.github.io/projects/product-search/index.html)
 
 3. [News Search] (https://github.com/ziaongit/React-Projects/tree/master/news-search)
-    [Demo] (https://ziaongit.github.io/projects/product-search/index.html)
-    
+    [Demo] (https://ziaongit.github.io/projects/news-search/index.html)
+
 4. [React Router] (https://github.com/ziaongit/React-Projects/tree/master/react-router)
     [Demo] (https://ziaongit.github.io/projects/react-router/index.html)
 
