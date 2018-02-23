@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "react-scripts build",
     "babel": "babel app --watch -d build"
   },
   "author": "Zia",
