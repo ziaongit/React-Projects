@@ -26,5 +26,5 @@
 9. [Markdown Previewer] (https://github.com/ziaongit/React-Projects/tree/master/bootstrap-search)
     [Demo] (https://ziaongit.github.io/projects/bootstrap-search/index.html)
 
-10. [Markdown Previewer] (https://github.com/ziaongit/React-Projects/tree/master/react-redux)
+10. [React Redux Starter] (https://github.com/ziaongit/React-Projects/tree/master/react-redux)
     [Demo] (https://ziaongit.github.io/projects/react-redux/index.html)
